@@ -16,7 +16,7 @@ public class Student_Record_Management {
 			 bw.write(id+","+name+","+marks);
 			 bw.newLine();
 			 bw.close();
-			 System.out.println("Student recoreds:- ");
+			 System.out.println("Student records:- ");
 			 FileReader fr = new FileReader(file);
 		        BufferedReader br = new BufferedReader(fr);
 		        String line;

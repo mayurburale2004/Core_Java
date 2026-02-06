@@ -4,5 +4,6 @@
 /**
  * 
  */
-module Java_Project {
+module {
+	requires java.xml;
 }
